@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Teacher Login</title>
+    <link rel="stylesheet" href="css/style1.css">
+</head>
+<body>
+
+    <div class="container">
+        <div class="box">
+            <form action="teacher-login.php" method="post"> <!-- Modified: Added action attribute -->
+                <h1>Teacher  Login</h1>
+                <div class="input-tb">
+                    <input type="text" name="email" placeholder="email" required>
+                </div>
+                <div class="input-tb">
+                    <input type="password" name="password" placeholder="password" required>
+                </div>
+                <div class="remember-forgot">
+                    <p>
+                    <label>
+                        <input type="checkbox">Remember me
+                    </label>
+                    <a href="a">Forgot password?</a>
+                    </p>
+                </div>
+                <button type="submit" class="btn">Login</button> <!-- Modified: Changed button type and added class -->
+                <div class="register-link">
+                    <p>Don't have an account? <a href="teacher-register.html">Register</a></p>
+                </div>
+            </form>
+        </div>
+        <div class="image-teacher">
+
+        </div>
+    </div>
+</body>
+</html>
